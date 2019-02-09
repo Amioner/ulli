@@ -1,0 +1,31 @@
+@import '../vendor/mixin.less';
+@import '../vendor/variables.less';
+
+p {
+  .fontSet(normal, 19px);
+
+  color: lightgreen;
+
+  margin: 20px 100px 20px 3%;
+}
+
+li {
+  &:nth-child(even) {
+    margin: 0 0 0 6%;
+    span {
+      .fontSet(bold, 25px);
+      color: gray;
+
+    }
+  }
+  &:nth-child(odd) {
+    color: blue;
+    margin: 0 0 0 9%;
+    p {
+      color: darkred;
+      font-size: 15px;
+
+    }
+  }
+
+}

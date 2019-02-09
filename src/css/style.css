@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+}
+ul p {
+  font-weight: normal;
+  font-size: 19px;
+  color: lightgreen;
+  margin: 20px 100px 20px 3%;
+}
+ul li:nth-child(even) {
+  margin: 0 0 0 6%;
+}
+ul li:nth-child(even) span {
+  font-weight: bold;
+  font-size: 25px;
+  color: gray;
+}
+ul li:nth-child(odd) {
+  color: blue;
+  margin: 0 0 0 9%;
+}
+ul li:nth-child(odd) p {
+  color: darkred;
+  font-size: 15px;
+}

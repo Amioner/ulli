@@ -1,0 +1,20 @@
+{
+  "name": "mypussysite",
+  "version": "0.0.1",
+  "description": "LESS исходники",
+  "main": "gulpfile.js",
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-less": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.1"
+  }
+}
